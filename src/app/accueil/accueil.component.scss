@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+#hiro{
+ background-image: url(/assets/homeimage/1.jpg);
+ height: 90vh;
+ width: 100%;
+ background-position: top 14% right 0%;
+ background-size: cover;
+ padding: 0 71px;
+ display: flex;
+ align-items: flex-start;
+ justify-content: center;
+ flex-direction: column;
+}
+#hiro button{
+    background-color: rosybrown;
+    color: #088178;
+    padding: 14px 80px 14px 65px;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-weight: bold;
+    border: 0;
+    border-radius: 20rem;
+}
+#hiro h1{
+    margin-top:1.5rem;
+}
+#body{
+    text-align: center;
+    font-family: "Roboto";
+    margin-top: 5rem;
+}
+#body .carde{
+    display:grid;
+    grid-gap: 2rem;
+    grid-template-columns: repeat(4,1fr);
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+#body .carde .carde-single{
+   text-align: start;
+   padding: 2rem;
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
